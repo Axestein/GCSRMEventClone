@@ -1,5 +1,5 @@
 import Navbar from "./components/Navbar"
-import Comingsoon from "./components/Comingsoon"
+import Comingsoon from "./components/ComingSoon"
 import PastEvent from "./components/PastEvent"
 import Footer from "./components/Footer"
 
