@@ -1,8 +1,7 @@
 import React, { useState } from 'react';
-import Navlogo from '../assets/Navlogo.png'; // Import the logo image
+import Navlogo from '../assets/Navlogo.png'; 
 
 const Navbar = () => {
-  // State to manage the mobile menu toggle
   const [isOpen, setIsOpen] = useState(false);
 
   const toggleMenu = () => {
@@ -12,15 +11,11 @@ const Navbar = () => {
   return (
     <nav className="bg-black text-white fixed w-full top-0 z-50 shadow-lg">
       <div className="container mx-auto flex items-center justify-between px-6 py-5">
-        {/* Logo Section */}
         <div className="navbar-logo">
-          <img src={Navlogo} alt="Logo" className="h-14" /> {/* Increased the logo size */}
+          <img src={Navlogo} alt="Logo" className="h-14" /> 
         </div>
-
-        {/* Hamburger Icon for Mobile */}
         <div className="md:hidden">
           <button onClick={toggleMenu} className="focus:outline-none">
-            {/* FontAwesome or any other icon library can be used */}
             <svg
               className="w-6 h-6"
               fill="none"
@@ -32,8 +27,7 @@ const Navbar = () => {
             </svg>
           </button>
         </div>
-
-        {/* Links Section */}
+        
         <ul
           className={`flex flex-col md:flex-row md:space-x-12 absolute md:static bg-black md:bg-transparent left-0 right-0 md:items-center transition-all duration-300 ease-in-out ${
             isOpen ? "top-16" : "top-[-200px]"

@@ -4,11 +4,10 @@ import Navlogo from '../assets/Navlogo.png';
 
 const Footer = () => {
   return (
-    <div className="text-white bg-black p-10 md:p-40"> {/* Reduced padding for mobile */}
-      {/* Footer container */}
+    <div className="text-white bg-black p-10 md:p-40"> 
       <div className="flex flex-col md:flex-row justify-between items-start">
-        <div className="mb-10 md:mb-0 text-center md:text-left"> {/* Centered text for mobile */}
-          <img src={Navlogo} alt="Logo" className="w-60 mb-6 mx-auto md:mx-0" /> {/* Center logo on mobile */}
+        <div className="mb-10 md:mb-0 text-center md:text-left"> 
+          <img src={Navlogo} alt="Logo" className="w-60 mb-6 mx-auto md:mx-0" />
           <p className="text-gray-400 text-lg"> 
             SRM Institute of Science & Technology,<br />
             Kattankulathur, Chennai 603203<br />
@@ -16,11 +15,11 @@ const Footer = () => {
           </p>
         </div>
 
-        <div className="text-center md:text-left"> {/* Centered text for mobile */}
+        <div className="text-center md:text-left"> 
           <p className="mb-3 text-xl">
             Follow us on
           </p>
-          <div className="flex flex-wrap justify-center md:justify-start space-x-6 md:space-x-8"> {/* Centered icons on mobile */}
+          <div className="flex flex-wrap justify-center md:justify-start space-x-6 md:space-x-8"> 
             <a href="https://www.linkedin.com/in/adityakumarsingh2005/" target="_blank" rel="noopener noreferrer">
               <FaLinkedin className="text-white text-5xl" />
             </a>
@@ -37,8 +36,7 @@ const Footer = () => {
         </div>
       </div>
 
-      {/* Bottom text */}
-      <div className="text-center mt-10 md:mt-40"> {/* Reduced margin-top for mobile */}
+      <div className="text-center mt-10 md:mt-40">
         <p className="text-white text-xl font-bold">
           Clone was made by Aditya 😊
         </p>

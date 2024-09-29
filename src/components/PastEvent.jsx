@@ -34,7 +34,7 @@ const PastEvent = () => {
             <img
               src={event.img}
               alt={event.alt}
-              className="w-full h-auto object-cover" // Ensure the image scales correctly
+              className="w-full h-auto object-cover" 
             />
           </div>
         ))}
