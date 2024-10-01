@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 
 const ScrollToTopButton = () => {
   const [isVisible, setIsVisible] = useState(false);
+
   const toggleVisibility = () => {
     if (window.pageYOffset > 300) {
       setIsVisible(true);
@@ -30,6 +31,7 @@ const ScrollToTopButton = () => {
         <button
           onClick={scrollToTop}
           className="fixed bottom-8 right-8 bg-green-500 text-white p-4 rounded-full shadow-lg hover:bg-green-600 transition-all duration-300"
+          style={{ zIndex: 1000 }} 
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
