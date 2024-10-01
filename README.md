@@ -1,6 +1,7 @@
 # Github Community SRM Event Page Clone
 
 The project contains the Event Page of the SRM Github Community. This is a responsive website made with React.js and Tailwind CSS.
+![Group 1437253667](https://github.com/user-attachments/assets/082c730e-1f6f-459d-89b6-713e5d6a03d6)
 
 ## video
 
