@@ -1,6 +1,7 @@
 import React from 'react';
 import comingsoonbanner from '../assets/comingsoonbanner.png';
 import comingsoon from '../assets/comingsoon.gif';
+import ScrollToTopButton from './ScrollToTopButton'; 
 
 const ComingSoon = () => {
   return (
@@ -15,6 +16,8 @@ const ComingSoon = () => {
           New Fun Events Coming Soon...
         </h1>
       </div>
+
+      <ScrollToTopButton /> 
     </div>
   );
 };
