@@ -21,7 +21,7 @@ const PastEvent = () => {
   ];
 
   return (
-    <div className="bg-black p-8">
+    <div className="bg-black p-80">
       <h1 className="text-5xl font-extrabold text-white text-center mb-14">
         <span className="text-green-500">Past</span> Events
       </h1>
