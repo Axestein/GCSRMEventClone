@@ -2,6 +2,10 @@
 
 The project contains the Event Page of the SRM Github Community. This is a responsive website made with React.js and Tailwind CSS.
 
+## video
+
+https://github.com/user-attachments/assets/f2c97bdc-b150-4204-867d-7abd23efd983
+
 ## Technologies Used
 
 - [React](https://reactjs.org/) - A JavaScript library for building user interfaces.
